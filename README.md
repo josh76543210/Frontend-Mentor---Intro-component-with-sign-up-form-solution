@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-TR6MiGseIj](https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-TR6MiGseIj)
+- Live Site URL: [https://josh76543210-fm-intro-sign-up-form.netlify.app/](https://josh76543210-fm-intro-sign-up-form.netlify.app/)
 
 ## My process
 

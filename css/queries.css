@@ -1,0 +1,98 @@
+/**********************/
+/*     over 480px     */
+/**********************/
+@media only screen and (min-width: 30em) {
+}
+
+/**********************/
+/*     over 640px     */
+/**********************/
+@media only screen and (min-width: 40em) {
+  body {
+    background-image: url(../images/bg-intro-desktop.png);
+  }
+
+  main {
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+}
+
+/**********************/
+/*     over 928px     */
+/**********************/
+@media only screen and (min-width: 58em) {
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  /* Main */
+  main {
+    max-width: none;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  /* Text-section */
+  .text-section {
+    text-align: left;
+  }
+
+  .text-section p {
+    line-height: 1.8;
+  }
+
+  /* Form-section */
+  .sale-banner {
+    width: 100%;
+    padding: 1.3rem 4rem;
+    line-height: 2;
+    background-color: var(--blue);
+    border-radius: 1rem;
+    box-shadow: 0 1rem 0 #00000022;
+  }
+
+  .form-container {
+    padding: 4rem;
+  }
+}
+
+/***********************/
+/*     over 1120px     */
+/***********************/
+@media only screen and (min-width: 70em) {
+}
+
+/**********************/
+/* Very small screens */
+/*     under 368px    */
+/**********************/
+@media (max-width: 23em) {
+  main {
+    padding: 2rem 0;
+  }
+
+  .form-section {
+    padding: 0;
+  }
+}
+
+/**********************/
+/* Footer media query */
+/**********************/
+@media (max-width: 23em) {
+  footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .boxv {
+    display: none;
+  }
+}

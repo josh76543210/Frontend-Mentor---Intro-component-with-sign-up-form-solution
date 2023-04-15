@@ -35,12 +35,17 @@ function checkform() {
 
 // form sucessfully submitted
 function submitSuccess() {
-  // briefly clear the success message
+  // briefly clear and tnen show success message
   successEl.classList.add("hidden");
   setTimeout(function () {
     successEl.classList.remove("hidden");
+    // clear errors
     inputBox.forEach((input) => {
       noError(input);
+    });
+    // clear inputs
+    inputBox.forEach((input) => {
+      input.children[0].value = "";
     });
   }, 300);
 }
